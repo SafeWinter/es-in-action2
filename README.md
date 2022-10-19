@@ -1,4 +1,4 @@
-# 《Redis 4.x Cookbook》Learning Notes
+# 《Elasticsearch in Action, Second Edition》Learning Notes
 
 
 
@@ -6,17 +6,52 @@
 
 ![Redis 4.x Cookbook](assets/cover.png)
 
-|    **Title**    | **Redis 4.x Cookbook** [ISBN: 9781783988167] |
+|    **Title**    | **Elasticsearch in Action, Second Edition** [ISBN: 9781617299858] |
 | :-------------: | :----------------------------------------------------------: |
-|   **Author**    |               **Pengcheng Huang, Zuofei Wang**               |
-| **Publication** |                      **Packt, 2018.2**                       |
-|    **Pages**    |                           **374**                            |
+|   **Author**    |                    **Madhusudhan Konda**                     |
+| **Publication** |  **Manning,   MEAP began 2021.8; Spring 2023 (estimated)**   |
+|    **Pages**    |                           **475**                            |
 
 > **Introduction**
 >
-> Redis is considered the world's most popular key-value store database. Its versatility and the wide variety of use cases it enables have made it a popular choice of database for many enterprises. Based on the latest version of Redis, this book provides both step-by-step recipes and relevant the background information required to utilize its features to the fullest. It covers everything from a basic understanding of Redis data types to advanced aspects of Redis high availability, clustering, administration, and troubleshooting. This book will be your great companion to master all aspects of Redis.
+> **Build powerful, production-ready search applications using the incredible features of Elasticsearch.**
 >
-> The book starts off by installing and configuring Redis for you to get started with ease. Moving on, all the data types and features of Redis are introduced in detail. Next, you will learn how to develop applications with Redis in Java, Python, and the Spring Boot web framework. You will also learn replication tasks, which will help you to troubleshoot replication issues. Furthermore, you will learn the steps that need to be undertaken to ensure high availability on your cluster and during production deployment. Toward the end of the book, you will learn the topmost tasks that will help you to troubleshoot your ecosystem efficiently, along with extending Redis by using different modules.
+> In *ElasticSearch in Action, Second Edition* you will discover:
+>
+> - Architecture, concepts, and fundamentals of Elasticsearch
+> - Installing, configuring and running Elasticsearch and Kibana
+> - Creating an index with custom settings
+> - Data types, mapping fundamentals, and templates
+> - Fundamentals of text analysis and working with text analyzers
+> - Indexing, deleting, and updating documents
+> - Indexing data in bulk and reindexing and aliasing operations
+> - Learning search concepts, relevancy scores and similarity algorithms
+>
+> 
+> *Elasticsearch in Action, Second Edition* teaches you to build scalable search applications using Elasticsearch. This completely new edition explores Elasticsearch fundamentals from the ground up. You’ll deep dive into design principles, search architectures, and Elasticsearch’s essential APIs. Every chapter is clearly illustrated with diagrams and hands-on examples. You’ll even explore real-world use cases for full text search, data visualisations, and machine-learning.
+>
+> ## about the technology
+>
+> Modern search seems like magic. You type a few words and the search engine appears to know what you want. With the Elasticsearch near-real-time search and analytics engine, you can give your users this magical experience without having to do complex low-level programming or understand advanced data science algorithms. You just install it, tweak it, and get on with your work.
+>
+> ## about the book
+>
+> *Elasticsearch in Action, Second Edition* is a hands-on guide to developing fully functional search engines with Elasticsearch and Kibana. Rewritten for the latest version of Elasticsearch, this completely new second edition explores Elasticsearch’s high-level architecture, reveals infrastructure patterns, and walks through the search and analytics capabilities of numerous Elasticsearch APIs.
+>
+> It covers dozens of awesome techniques, such as:
+>
+> 
+>
+> - Developing a multitude of search queries
+> - Working with various query types
+> - Enabling search results with sorting and pagination functionality
+> - Writing and working with advanced search queries
+> - Working analytics and aggregations
+> - Developing high level visualizations in Kibana
+> - Configuring and scaling the clusters, and tuning performance
+>
+>
+> You’ll quickly progress from the basics of installation and configuring clusters, to indexing documents, advanced aggregations, and putting your servers into production. By the time you’re done, you’ll be ready to build amazing search engines for your clients that take advantage of Elasticsearch’s modern features.
 
 
 
@@ -26,17 +61,28 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 
 | No.  |        Chapter Title        |          Status          |
 | :--: | :-------------------------: | :----------------------: |
-| Ch01 | [Chapter Title1](./Ch01.md) |    :heavy_check_mark:    |
-| Ch02 | [Chapter Title2](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Chapter Title3](./Ch03.md) |        :no_entry:        |
+| Ch01 | [Overview](./Ch01.md) | :orange_book: |
+| Ch02 | [Getting started](./Ch02.md) | :hourglass_flowing_sand: |
+| Ch03 | [Architecture](./Ch03.md) | :no_entry: |
+| Ch04 | [Mapping](./Ch04.md) | :no_entry: |
+| Ch05 | [Working with documents](./Ch05.md) | :no_entry: |
+| Ch06 | [Indexing operations](./Ch06.md) | :no_entry: |
+| Ch07 | [Text analysis](./Ch07.md) | :no_entry: |
+| Ch08 | [Introducing search](./Ch08.md) | :no_entry: |
+| Ch09 | [Term-level search](./Ch09.md) | :no_entry: |
+| Ch10 | [Full-text search](./Ch10.md) | :no_entry: |
+| Ch11 | [Compound queries](./Ch11.md) | :no_entry: |
+| Ch12 | [Advanced search](./Ch12.md) | :no_entry: |
+| Ch13 | [Aggregations](./Ch13.md) | :no_entry: |
+| Ch14 | [Administration](./Ch14.md) | :no_entry: |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 13 empty markdown files named Ch##.md:
-for($i=1; $i -le 13; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 14 empty markdown files named Ch##.md:
+for($i=1; $i -le 14; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
