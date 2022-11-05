@@ -62,10 +62,10 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | No.  |        Chapter Title        |          Status          |
 | :--: | :-------------------------: | :----------------------: |
 | Ch01 | [Overview](./Ch01.md) | :orange_book: |
-| Ch02 | [Getting started](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Architecture](./Ch03.md) | :no_entry: |
-| Ch04 | [Mapping](./Ch04.md) | :no_entry: |
-| Ch05 | [Working with documents](./Ch05.md) | :no_entry: |
+| Ch02 | [Getting started](./Ch02.md) | :orange_book: |
+| Ch03 | [Architecture](./Ch03.md) | :orange_book: |
+| Ch04 | [Mapping](./Ch04.md) | :orange_book: |
+| Ch05 | [Working with documents](./Ch05.md) | :hourglass_flowing_sand: |
 | Ch06 | [Indexing operations](./Ch06.md) | :no_entry: |
 | Ch07 | [Text analysis](./Ch07.md) | :no_entry: |
 | Ch08 | [Introducing search](./Ch08.md) | :no_entry: |
